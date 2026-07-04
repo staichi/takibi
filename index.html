@@ -5,39 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Takibi - Camp Checklist</title>
   <style>
-    body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 40px 20px; color: #333; text-align: center; }
-    h1 { color: #E85D24; font-size: 2.5em; }
-    p { color: #666; line-height: 1.7; }
-    .badge img { width: 180px; margin-top: 24px; }
-    .features { text-align: left; margin-top: 32px; }
-    .features li { margin-bottom: 12px; line-height: 1.6; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #1A2744; color: #fff; min-height: 100vh; }
+    .hero { text-align: center; padding: 80px 20px 60px; }
+    .hero h1 { font-size: 3em; color: #F2A623; letter-spacing: 4px; margin-bottom: 8px; }
+    .hero p { color: #aac; font-size: 1.1em; margin-bottom: 32px; }
+    .badge img { width: 180px; }
+    .features { max-width: 700px; margin: 0 auto; padding: 40px 20px; }
+    .features h2 { color: #F2A623; margin-bottom: 24px; font-size: 1.4em; text-align: center; }
+    .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .feature-card { background: rgba(255,255,255,0.08); border-radius: 12px; padding: 20px; }
+    .feature-card h3 { color: #F2A623; margin-bottom: 8px; font-size: 1em; }
+    .feature-card p { color: #aac; font-size: 0.9em; line-height: 1.6; }
+    .footer { text-align: center; padding: 40px 20px; border-top: 1px solid rgba(255,255,255,0.1); }
+    .footer a { color: #F2A623; text-decoration: none; margin: 0 12px; font-size: 0.9em; }
+    @media (max-width: 600px) { .feature-grid { grid-template-columns: 1fr; } .hero h1 { font-size: 2em; } }
   </style>
 </head>
 <body>
-  <h1>Takibi</h1>
-  <p>キャンプの相棒アプリ</p>
-  <p>キャンプ場の記録・装備管理・チェックリスト・コミュニティ機能を一つにまとめたiOSアプリです。</p>
-
-  <div class="badge">
-    <a href="https://apps.apple.com/jp/app/takibi-camp-checklist/id6782243450">
-      <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
-    </a>
+  <div class="hero">
+    <h1>TAKIBI</h1>
+    <p>キャンプの相棒アプリ</p>
+    <p style="color:#aac;margin-bottom:32px;font-size:0.95em;">キャンプ場の記録・装備管理・チェックリスト・コミュニティ</p>
+    <div class="badge">
+      <a href="https://apps.apple.com/jp/app/takibi-camp-checklist/id6782243450">
+        <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
+      </a>
+    </div>
   </div>
 
   <div class="features">
     <h2>主な機能</h2>
-    <ul>
-      <li>キャンプ場を地図上に記録・設備情報・評価・メモを管理</li>
-      <li>テント・調理器具・焚き火道具など装備を一元管理</li>
-      <li>Amazonの商品リンクと自動商品名取得</li>
-      <li>チェックリストの自動生成で忘れ物ゼロ</li>
-      <li>みんなの装備・人気ギアのランキング</li>
-    </ul>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>キャンプ場の記録</h3>
+        <p>行ったキャンプ場を地図上に記録。設備情報・評価・メモを残して思い出を管理。</p>
+      </div>
+      <div class="feature-card">
+        <h3>装備の管理</h3>
+        <p>テント・調理器具・焚き火道具など全装備を一元管理。Amazonリンクも登録可能。</p>
+      </div>
+      <div class="feature-card">
+        <h3>チェックリスト</h3>
+        <p>装備セットからチェックリストを自動生成。忘れ物ゼロのキャンプを実現。</p>
+      </div>
+      <div class="feature-card">
+        <h3>コミュニティ</h3>
+        <p>みんなの装備をチェック。人気キャンプギアのランキングを確認できます。</p>
+      </div>
+    </div>
   </div>
 
-  <p>
-    <a href="privacy.html">プライバシーポリシー</a> |
+  <div class="footer">
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="privacy-en.html">Privacy Policy</a>
     <a href="tokusho.html">特定商取引法に基づく表記</a>
-  </p>
+  </div>
 </body>
 </html>
