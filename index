@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takibi - Camp Checklist</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 40px 20px; color: #333; text-align: center; }
+    h1 { color: #E85D24; font-size: 2.5em; }
+    p { color: #666; line-height: 1.7; }
+    .badge img { width: 180px; margin-top: 24px; }
+    .features { text-align: left; margin-top: 32px; }
+    .features li { margin-bottom: 12px; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <h1>Takibi</h1>
+  <p>キャンプの相棒アプリ</p>
+  <p>キャンプ場の記録・装備管理・チェックリスト・コミュニティ機能を一つにまとめたiOSアプリです。</p>
+
+  <div class="badge">
+    <a href="https://apps.apple.com/jp/app/takibi-camp-checklist/id6782243450">
+      <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
+    </a>
+  </div>
+
+  <div class="features">
+    <h2>主な機能</h2>
+    <ul>
+      <li>キャンプ場を地図上に記録・設備情報・評価・メモを管理</li>
+      <li>テント・調理器具・焚き火道具など装備を一元管理</li>
+      <li>Amazonの商品リンクと自動商品名取得</li>
+      <li>チェックリストの自動生成で忘れ物ゼロ</li>
+      <li>みんなの装備・人気ギアのランキング</li>
+    </ul>
+  </div>
+
+  <p>
+    <a href="privacy.html">プライバシーポリシー</a> |
+    <a href="tokusho.html">特定商取引法に基づく表記</a>
+  </p>
+</body>
+</html>
